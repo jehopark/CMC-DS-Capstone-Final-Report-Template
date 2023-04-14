@@ -317,9 +317,9 @@
   \ifodd\c@page
   \else
   \thispagestyle{empty}% added
-  \hbox{}\newpage
+  %\hbox{}\newpage
   \if@twocolumn
-  \hbox{}\newpage
+  %\hbox{}\newpage
   \fi
   \fi
   \fi
